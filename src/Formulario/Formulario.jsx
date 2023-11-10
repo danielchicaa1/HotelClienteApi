@@ -3,13 +3,44 @@ export function Formulario() {
         <>
             <form>
                 <div className="row">
-                    <div className="col-12 col-md-6">
+                    <div className="col-12 col-md-6 fst-italic fw-bold">
                         <div className="mb-3">
                             <label className="form-label">
-                                Usuario
+                                Nombre
                             </label>
-                            <input type="text" className="form-control" />
+                            <input type="text" className="form-control" placeholder="Nombre"/>
                         </div>
+                        <div className="mb-3">
+                            <label className="form-label">
+                                Apellidos
+                            </label>
+                            <input type="text" className="form-control" placeholder="Apellidos"/>
+                        </div>
+                        <div className="mb-3">
+                            <label className="form-label">
+                                Telefono
+                            </label>
+                            <input type="text" className="form-control" placeholder="Telefono" />
+                        </div>
+                        <div className="mb-3">
+                            <label className="form-label">
+                                Fecha Ingreso
+                            </label>
+                            <input type="date" className="form-control" />
+                        </div>
+                        <div className="mb-3">
+                            <label className="form-label ">
+                                Fecha Egreso
+                            </label>
+                            <input type="date" className="form-control" />
+                        </div>
+                        <div className="mb-3">
+                            <label className="form-label ">
+                                Cantidad de Personas
+                            </label>
+                            <input type="number"  min="1" max="10" className="form-control" />
+                        </div>
+                        <button type="submit" class="btn btn-dark fst-italic fw-bold">Reservar</button>
                     </div>
                 <div className="col-12 col-md-6"></div>
             </div>
