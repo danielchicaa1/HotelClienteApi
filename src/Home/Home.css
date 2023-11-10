@@ -1,0 +1,22 @@
+.banner{
+    background-image: url('../assets/img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top center;
+    background-attachment: fixed;
+    height: 866px;
+    padding: 24%; 
+    position: relative;
+    z-index: 1;
+}
+.banner::after{
+    content: "";
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
