@@ -8,13 +8,13 @@ export function Formulario() {
                             <label className="form-label">
                                 Nombre
                             </label>
-                            <input type="text" className="form-control" placeholder="Nombre"/>
+                            <input type="text" className="form-control" placeholder="Nombre" />
                         </div>
                         <div className="mb-3">
                             <label className="form-label">
                                 Apellidos
                             </label>
-                            <input type="text" className="form-control" placeholder="Apellidos"/>
+                            <input type="text" className="form-control" placeholder="Apellidos" />
                         </div>
                         <div className="mb-3">
                             <label className="form-label">
@@ -22,6 +22,8 @@ export function Formulario() {
                             </label>
                             <input type="text" className="form-control" placeholder="Telefono" />
                         </div>
+                    </div>
+                    <div className="col-12 col-md-6">
                         <div className="mb-3">
                             <label className="form-label">
                                 Fecha Ingreso
@@ -36,16 +38,16 @@ export function Formulario() {
                         </div>
                         <div className="mb-3">
                             <label className="form-label ">
-                                Cantidad de Personas
+                                Cant de Personas
                             </label>
-                            <input type="number"  min="1" max="10" className="form-control" />
+                            <input type="number" min="1" max="10" className="form-control" />
                         </div>
                         <button type="submit" class="btn btn-dark fst-italic fw-bold">Reservar</button>
                     </div>
-                <div className="col-12 col-md-6"></div>
-            </div>
-            <div className="row"></div>
-        </form >
+                </div>
+
+                {/* <div className="row"></div> */}
+            </form >
         </>
     )
 }

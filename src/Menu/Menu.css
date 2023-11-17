@@ -1,0 +1,25 @@
+/* Menu.css */
+
+/* Estilos personalizados para el menú */
+.navbar {
+  background-color: #f8f9fa; /* Color de fondo de la barra de navegación */
+}
+
+.navbar-brand {
+  font-weight: bold; /* Estilos para el texto del logo */
+}
+
+.navbar-nav .nav-item {
+  margin-right: 10px; /* Espaciado entre elementos del menú */
+}
+
+.navbar-nav .nav-link {
+  color: #333; /* Color del texto del enlace */
+  font-weight: bold; /* Estilos para el texto del enlace */
+}
+
+.navbar-nav .nav-link.active {
+  color: #007bff; /* Color del texto del enlace activo */
+}
+
+  

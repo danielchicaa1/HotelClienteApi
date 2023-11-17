@@ -1,11 +1,11 @@
 .banner{
-    background-image: url('../assets/img/banner.jpg');
+    background-image: url('../assets/img/Hotel1.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     background-position: top center;
     background-attachment: fixed;
-    height: 866px;
-    padding: 25.6%; 
+    /* height: 866px; */
+    padding: 15%; 
     position: relative;
     z-index: 1;
 }

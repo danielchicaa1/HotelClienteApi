@@ -1,0 +1,9 @@
+/* ImageGrid.css */
+
+/* Estilos para la cuadrícula de imágenes */
+.img-fluid {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
