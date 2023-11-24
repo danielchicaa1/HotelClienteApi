@@ -1,6 +1,7 @@
 export function Formulario() {
     return (
         <>
+
             <form>
                 <div className="row">
                     <div className="col-12 col-md-6 fst-italic fw-bold">
@@ -42,6 +43,10 @@ export function Formulario() {
                             </label>
                             <input type="number" min="1" max="10" className="form-control" />
                         </div>
+
+
+                    </div>
+                    <div className="text-center">
                         <button type="submit" class="btn btn-dark fst-italic fw-bold">Reservar</button>
                     </div>
                 </div>
